@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+	margin:0px;
+	padding:0px;
+	overflow-x: hidden;
+
+}
+
+ul,dl,ol,li{
+	margin:0px; padding:0px;
+}
+
+ul,ol{
+	list-style:none;
+}
+li{
+	list-style-type:none;
+}
+
+
+.backgrounds{
+	width:1366px;
+	height:726px;
+	margin: 0 auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	overflow: hidden;
+	background-color:#d3d3d3 ;
+}
+
+.logo{
+	width:370px;
+	height:50px;
+	margin-bottom:20px;
+	text-align:center;
+}
+.logo_img{
+	display:none;
+	margin-left:140px;
+	width:80px;
+	height:50px;
+}
+.centers{
+	margin:0 auto;
+}
+
+.content{
+	width:370px;
+	height:500px;
+	margin: 0 auto;
+	margin-top:170px;
+	font-size:14px;
+	margin-top: 226.5px;
+	padding-bottom: 50px;
+	font-family: 微软雅黑;
+	text-decoration: none;
+
+}
+.content_t{
+    width:370px;
+	height:41px;
+	text-align: center;
+}
+.login_framework{
+	width:370px;
+	height:auto;
+	padding-bottom:16px;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 0px;
+}
+
+.regist,.logins{
+	width:370px;
+	height:32px;
+	color:white;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 13px;
+	font-family: 微软雅黑;
+}
+
+.texts{
+   color:#ffa800;
+   text-decoration:none;
+
+}
+.cursors{
+	cursor:pointer;
+}
+
+.login_framework ul{
+	width:320px;
+	height:42px;
+	margin: 0 auto;
+    margin-top:10px;
+
+}
+.contents{
+	color:red;
+	font-weight:500;
+	width:320px;
+    height:25px;
+	text-align: left;
+	margin: 0 auto;
+	padding-top:10px;
+	font-family: 微软雅黑;
+}
+
+.content2{
+	width:320px;
+	margin-top: 20px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.hro{
+    border:1px #eaeaea solid;
+}
+
+.content_th{
+ 	color:#999798;
+     width:320px;
+	 height:110px;
+	margin: 0 auto;
+	margin-top:15px; ;
+}
+
+
+.third_part{
+	width:320px;
+	height:auto;
+
+}
+.posit{
+	float:left;
+	margin-top: 20px;
+	text-decoration: none;
+	color:#999798;
+
+}
+
+.posit img{
+	display: inline-block;
+	float:left;
+	width:44px;
+	height:44px;
+    margin-left:25px;
+}
+
+.posit img:hover{
+	width:45px;
+	height:45px;
+	transform:0.5s;
+}
+
+
+
+.posit p{
+	display: inline-block;
+	width:60px;
+	height:20px;
+	margin-top: 2px;
+	margin-left:18px;
+	text-align: center;
+}
+
+.posit p:hover{
+	 color:#000;
+}
+
+
+/*
+表单框的css，使用表单框
+*/
+.text {
+	width: 320px;
+	border-radius: 5px;
+	height: 38px;
+	color: #CCCCCC;
+	font-family: 'Microsoft YaHei';
+	letter-spacing: 1px;
+	box-shadow:0 1px 10px rgba(0,0,0,0.1) inset;
+	border:solid 1px #ccc;
+	text-indent:10px;
+}
+
+.text:focus{
+	box-shadow:0 0 4px rgba(255,168,0,0.8);
+    border:solid 1px #ffa800;
+	outline:#ffa800;
+}
+
+.identify{
+	width: 180px;
+	line-height: 39px;
+	float:right;
+}
+
+.identifying{
+	float:left;
+	display: inline-block;
+	width:120px;
+	height:39px;
+	border:solid 1px #ccc;
+	margin-right: 8px;
+	border-radius: 5px;
+}
+
+.checkbox_position{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.login_button{
+	width:320px;
+	height:42px;
+	background-color: #ffa800;
+	border:1px #ffa800 solid;
+	text-align: center;
+	line-height: 40px;
+	color:white;
+	font-size:20px;
+	font-weight: 900;
+	border-radius: 5px;
+	font-family: 微软雅黑;
+}
+
+.rem_password{
+	width:320px;
+	line-height: 35px;
+	margin: 0 auto;
+	text-align: right;
+	margin-top:2px;
+	color: #ffa800;
+	font-family: 微软雅黑;
+	text-decoration: none;
+	float:left;
+}
+
+.foot_part{
+	width:1000px;
+	height:80px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.foot_center{
+	width:1000px;
+	height:80px;
+	margin-left: 200px;
+
+}
+
+.shangqiang{
+	float:left;
+	width:47px;
+	height:31px;
+	margin-top:16px;
+	margin-left: 10px;
+}
+
+.about_compny{
+	float:left;
+	width:350px;
+	height:20px;
+	color:#8b8b8b;
+	margin-top:14px;
+	margin-left:10px;
+	font-family: 微软雅黑;
+	font-weight:500;
+	font-size:16px;
+}
+

@@ -1,0 +1,256 @@
+dl, dt, dd, ol, ul, li {
+    list-style-type: none;
+}
+
+p, span, dl, dt, dd, ol, li, div, h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
+
+h3 {
+    font-size: 14px;
+	font-weight: bold;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+table, th, tr, td {
+    vertical-align: middle;
+}
+
+table{
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+em {
+    font-style: normal;
+    font-weight: 500;
+}
+
+.body_bg {
+    background: #f8fcff;
+    width: 100%;
+}
+
+.font_g3{
+	color:#333;
+}
+
+.font_g6{
+	color:#666;
+}
+
+.font_g9{
+	color:#999;
+}
+
+.font_gc{
+	color:#ccc;
+}
+
+.base{
+	width:1000px;
+	margin:0 auto;
+}
+
+.top10{
+	margin-top:10px;
+}
+
+.clear{
+	clear:both;
+}
+
+/* 导航栏【START】 */
+.navigation{
+	height:40px;
+	line-height:40px;
+}
+
+.navigation span a{
+	color: #08c;
+}
+
+.navigation span a.cur, .navigation span a.cur:hover{
+	color: #666;
+	cursor:default;
+}
+
+.navigation span a:hover{
+	color:#d37;
+}
+/* 导航栏【END】 */
+
+/* 主体部分【START】 */
+.content {
+    background: #fff;
+    overflow: hidden;
+	border: 1px solid #d8d8d8;
+}
+
+.box {
+    padding: 10px;
+}
+
+.box_title {
+    border-bottom: 2px solid #d8619b;
+}
+
+.view-box h4 {
+    margin-top: 15px;
+    border-bottom: 1px solid #ececec;
+}
+
+.view-box p.p-info {
+    border-bottom: 1px dashed #ddd;
+}
+
+.view-box p {
+    margin-left: 1em;
+    text-indent: 1em;
+    height: 30px;
+    line-height: 30px;
+}
+
+.p-table {
+    margin-left: 15px;
+    width: auto;
+    color: #555;
+}
+
+.p-table th {
+    font-weight: bold;
+	border: none;
+}
+
+.p-table th, .p-table td{
+	padding: 3px 20px 5px 10px;
+	color: #555;
+	text-align: left;
+}
+
+.order-info {
+	padding:0;
+	margin:0;
+    margin-left: 2em;
+    width: 480px;
+}
+
+.order-info li {
+    width: 49%;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    display: inline;
+}
+
+.r-table {
+    width: 100%;
+    color: #555;
+}
+
+.r-table tr.thead {
+    background: #f8f8f8;
+}
+
+.r-table th {
+    color: #555;
+	text-align: left;
+}
+
+.r-table td, .r-table th {
+    border: 1px solid #dedede;
+    padding: 3px 8px;
+}
+
+p.price-sum {
+    text-align: right;
+    padding: 10px;
+}
+
+dfn {
+    color: #f60;
+    font-style: normal;
+    font-family: Arial,sans-serif;
+	font-weight: 500;
+}
+
+.f24 {
+    font-size: 24px;
+}
+
+dfn i {
+    font-style: normal;
+    font-weight: 500;
+}
+
+.buttom {
+    width: 960px;
+    padding: 0 0 10px 10px;
+    margin: 10px auto 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.buttom_list {
+    margin: 0 20px 0 20px;
+    display: inline;
+    line-height: 22px;
+    width: 200px;
+    float: left;
+    overflow: hidden;
+}
+
+.buttom_list b {
+    padding: 0 0 4px 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+	display: block;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.blt {
+    background: url("../img/bottom_icon.png") no-repeat;
+}
+
+.buttom_list_tit1 {
+    background-position: 8px 3px;
+}
+
+.buttom_list_tit2 {
+    background-position: 8px -38px;
+}
+
+.buttom_list_tit3 {
+    background-position: 8px -78px;
+}
+
+.buttom_list_tit4 {
+    background-position: 8px -117px;
+}
+
+.buttom_list a {
+    display: block;
+    padding-left: 28px;
+    white-space: nowrap;
+    color: #888;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.buttom_list a:hover {
+    color: #d38;
+}
+/* 主体部分【END】 */

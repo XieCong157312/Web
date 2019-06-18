@@ -1,0 +1,67 @@
+body, div, dl, dt, dd, ul, ol, li, pre, code, form, fieldset, legend, input, button, textarea, select, p, blockquote, th, td {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑", "Microsoft Yahei", Arial, Helvetica, sans-serif, "宋体", helvetica, tahoma, verdana, sans-serif;
+}
+.tabs-container {
+  overflow: auto;
+}
+.container {
+	margin: 3px 3px 3px 3px;
+}
+/*   【search table 样式】   START    */
+.search  {
+	width: 98%;
+	margin: 3px;
+}
+/*   搜索框中按钮之间的距离    */
+.search  a {
+	margin-left: 20px;
+}
+/*   【搜索框内部表格样式】   END    */
+
+/*   【Form table 样式】   START    */
+.form {
+	text-decoration:none;
+	margin-top:3px;
+	margin-bottom:3px;
+	word-break:break-all;
+	table-layout: fixed;
+	width: 100%;
+}
+.form th {
+	font-weight:normal;
+	line-height:16px;
+	padding:0 3px;
+	text-align:right; 
+	vertical-align:top;
+	padding:5px; 
+	width: 15%;
+}
+.form td {
+	line-height:22px;
+	padding:3px;
+	text-align:left; 
+	vertical-align:top;
+	padding:5px
+}
+/*   【Form table 样式】   END    */
+
+/****easyui 全局重载********/
+.easyui-panel {
+	margin-bottom: 3px;
+}
+.combo .combo-text {
+	cursor: default;
+}
+.combobox-item {
+	height: 18px;
+}
+.datagrid-header-row {
+	text-align: center;
+}
+a.l-btn span span.l-btn-text {
+    vertical-align: baseline;
+}
+/****easyui override********/

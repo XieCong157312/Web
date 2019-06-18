@@ -1,0 +1,779 @@
+@CHARSET "UTF-8";
+body {
+    background: #fff none repeat scroll 0 0;
+    font: 12px/22px 微软雅黑, Tahoma, Arial, sans-serif;
+    margin: 0;
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    color: #6c6c6c;
+    text-decoration: none;
+}
+
+.topbar_js_box {
+    background: #fafafa none repeat scroll 0 0;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    width: 100%;
+    z-index: 50;
+}
+
+.topbar_box {
+    color: #6c6c6c;
+    font-size: 12px;
+    height: 30px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.nav {
+    background: #d37 none repeat scroll 0 0;
+    position: relative;
+    z-index: 43;
+}
+
+.city_box {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+.city_box a:hover{
+    color: orange;
+}
+.city_box .city_list{
+    width: 305px;
+    height: 368px;
+    float: left;
+    background: #FFFFFF;
+    border: 1px #DDD solid;
+    z-index: 999999;
+    display: none;
+    position: absolute;
+}
+
+.lv_icon {
+    background-image: url(../img/header_icon.png);
+}
+
+.icon_city {
+    background-position: 0 -70px;
+    float: left;
+    height: 17px;
+    margin: 7px 8px 0 0;
+    vertical-align: middle;
+    width: 17px;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.top_link {
+    float: right;
+}
+
+.top_link li {
+    display: inline;
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    margin: 8px 0 0;
+}
+
+.dropdown {
+    position: relative;
+    z-index: 9;
+}
+
+.lv_link {
+    display: inline-block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: -8px 0 0;
+    overflow: hidden;
+    padding: 0 6px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lv_link .icon_arrow {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: black #FAFAFA #FAFAFA ;
+    border-image: none;
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    margin-left: 3px;
+    top: 19px;
+    width: 0;
+    transition-duration: 0s;
+}
+
+.topbar_login {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    overflow: hidden;
+    padding-right: 5px;
+}
+
+.topbar_login a {
+    float: none;
+}
+
+.topbar_login a:hover {
+    color: orange;
+    float: none;
+}
+
+.top_link a:hover {
+    color: orange;
+}
+
+
+.icon_wx {
+    background-position: 0 -90px;
+}
+
+.lv_link .lv_icon {
+    float: left;
+    height: 17px;
+    margin: 7px 3px 0 0;
+    width: 17px;
+}
+
+.icon_wb {
+    float: left;
+    height: 17px;
+    margin: 5px 3px 0 0;
+    width: 17px;
+    background-position: 0 -110px;
+}
+
+body .header {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    height: 93px;
+    z-index: 45;
+}
+
+.inner_herder {
+    height: 80px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.lv_baozhang {
+    float: right;
+    margin-top: 35px;
+    margin-right: 0px;
+}
+
+.lv_baozhang i {
+    display: block;
+    height: 28px;
+    margin: 0 auto;
+    width: 28px;
+}
+
+.lv_baozhang li {
+    color: #999;
+    float: left;
+    text-align: center;
+    width: 68px;
+}
+
+.icon_bz1 {
+    background-position: -605px -50px;
+}
+
+.icon_bz2 {
+    background-position: -605px -80px;
+}
+
+.icon_bz3 {
+    background-position: -605px -110px;
+}
+
+.icon_bz4 {
+    background-position: -605px -140px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.search_div {
+    float: right;
+    height: 40px;
+    width: 500px;
+    margin: 35px 70px 0 0;
+}
+
+.search_box {
+    border: 2px solid #d37;
+    height: 36px;
+}
+
+.search_box .search {
+    border: medium none;
+    color: #666;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    outline: medium none;
+    padding: 8px 10px;
+}
+
+.w_260 {
+    width: 193px;
+}
+
+.lv_nav_bg {
+    background: #d37 none repeat scroll 0 0;
+    position: relative;
+    z-index: 43;
+}
+
+.lv_nav {
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+    font-size: 16px;
+}
+
+.menu {
+    height: 40px;
+    width: 1200px;
+    margin-left: -40px;
+}
+
+.menu li {
+    float: left;
+    text-align: center;
+    width: 80px;
+}
+
+.menu li a {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    cursor: hand;
+    background-color: #A81C54
+}
+.menu li:hover .icon_arrow{
+    border-color: #A81C54 #A81C54 #fafafa ;
+    top: 14px;
+}
+.menu li:hover .down_nav{
+    display: block;
+}
+
+
+
+.content_menu {
+    width: 1366px;
+    height: 400px;
+    margin: auto;
+    display: none;
+}
+/*左侧悬浮栏开始*/
+.content_menu .menu_block_left {
+    float: left;
+    width: 240px;
+    height: 400px;
+    background: #E9EBEA;
+    position: absolute;
+    z-index: 10;
+    margin-left: 75px;
+    margin-top: 0px;
+    opacity: 0.9;
+    display: none;
+}
+
+.lv-sidernav-list {
+    height: 60px;
+    width: 480px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 2;
+}
+
+.lv-sidernav-tit {
+    height: 59px;
+    width: 240px;
+}
+
+.lv-sidernav-hot {
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.lv-sidernav-hot a {
+    margin-left: 5px;
+}
+
+.lv-sidernav-hot a:hover {
+    margin-left: 5px;
+    color: orange;
+    text-decoration: underline;
+}
+
+.h4 {
+    height: 22px;
+    padding-top: 8px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 100
+}
+
+.lv-sidernav-list .line {
+    width: 230px;
+    height: 1px;
+    border-bottom: 1px dashed #CDD8DE;
+}
+
+.lv-sidernav-list .lv-sidernav-hot-main {
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    z-index: 1;
+    width: 418px;
+    height: 387px;
+    overflow: hidden;
+    padding: 3px 20px 8px;
+    border: 1px #C12162 solid;
+    background: #fff;
+    display: none
+}
+
+.display {
+    display: block;
+}
+
+.lv-sidernav-hot-main dl {
+    padding: 6px 0;
+    width: 440px;
+    overflow: hidden;
+    zoom: 1;
+    line-height: 20px;
+}
+
+.lv-sidernav-hot-main dt {
+    float: left;
+    width: 76px;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+}
+
+.lv-sidernav-hot-main dd {
+    float: left;
+    width: 360px;
+}
+
+dl a {
+    margin-left: 3px;
+}
+
+dl a:hover {
+    margin-left: 3px;
+    color: orange;
+    text-decoration: underline;
+}
+/*左侧悬浮栏结束*/
+
+/*右侧悬浮栏开始*/
+.content_menu .menu_block_right {
+    width: 170px;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    z-index: 10;
+    margin-left: 1100px;
+    overflow: hidden;
+    float: right;
+    margin-top: 0px;
+    opacity: 0.9
+}
+
+.lv-banSmallBox {
+    width: 170px;
+    height: 400px;
+    margin-left: -40px;
+    z-index: 111;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.btn-banSmall {
+    height: 19px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    line-height: 19px;
+}
+s
+.lv-banSmall li {
+    border-bottom: 1px solid #eee;
+    height: 120px;
+}
+
+/*右侧悬浮栏结束*/
+
+/*内容模块开始*/
+.public-box {
+    margin: 20px auto;
+    width: 1200px;
+    overflow: hidden;
+    height: auto;
+
+}
+
+.fls {
+    display: none;
+}
+
+.freedomWalk-detail {
+    display: block;
+}
+
+.public-tit {
+    position: relative;
+    width: 1200px;
+    height: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddd;
+}
+
+.public-tit h3 {
+    display: inline;
+    font-weight: normal;
+}
+
+.public-tit h3 strong {
+    font-size: 22px;
+    color: #333;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.public-tit h3 span {
+    padding-left: 8px;
+    color: #bababa;
+}
+
+.public-sub {
+    position: absolute;
+    left: 245px;
+    bottom: 0px;
+    width: 300px;
+    height: 30px;
+    line-height: 24px;
+    color: #666;
+    display: none;
+}
+
+.public-sub li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 65px;
+    height: 30px;
+    margin: 0 8px;
+    padding: 0 8px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.display-none {
+    display: none;
+}
+
+.public-sub li:hover {
+    color: orange;
+}
+
+.wrap a {
+    color: #bababa;
+}
+
+.public-tit-more {
+    padding-top: 13px;
+    line-height: 14px;
+}
+
+.fr {
+    float: right;
+    display: inline-block;
+}
+
+ins, a {
+    text-decoration: none;
+}
+
+.icon-v7-more {
+    width: 16px;
+    height: 14px;
+    background-position: -100px -5px;
+    vertical-align: top;
+}
+
+.public-pro {
+    width: 950px;
+    height: auto;
+    padding-top: 5px;
+    float: right;
+}
+
+.pro_list_product_name{
+    display: inline-block;
+    width:150px;
+    border:1px red solid;
+}
+.pro-list-price {
+    width: 100px;
+    height: 30px;
+    white-space: nowrap;
+    text-align: right;
+
+
+}
+.pro-list-price em {
+    padding: 0 3px 0 1px;
+
+}
+.pro-list-price em, .pro-list-price i {
+    font-family: "Arial","Microsoft YaHei";
+    color: #f60;
+    font-size: 16px;
+   font-style: normal;
+}
+.pro-list {
+    position: relative;
+    width: 950px;
+    overflow: hidden;
+    margin-left: -30px;
+}
+
+.pro-list ul {
+    width: 950px;
+}
+
+.pro-list ul li {
+    width: 290px;
+    height:250px;
+    float: left;
+    margin-right: 15px;
+}
+
+.pro_list_content{
+   border:1px #fff solid;
+}
+
+.pro-list ul li .pro_list_content:hover{
+    margin-top: 8px;
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+
+
+.pro-list ul li p{
+    color:#666;
+
+}
+.public-sub li .phone_ico{
+    width: 15px;
+    height: 20px;
+    background-position: 0px 135px;
+}
+.phone_ico{
+    background-image: url(../img/header_icon.png);
+}
+/*左侧导航样式开始*/
+.public-asidebg {
+    width: 240px;
+    background: #F1F1F1;
+    float: left;
+    overflow: hidden;
+
+}
+
+.public-asidebg .public-asidenav {
+    margin: 15px auto auto;
+    overflow: hidden;
+    width: 240px;
+}
+
+.public-asidebg .public-asidenav .min-title {
+    width: 145px;
+    height: 34px;
+    margin: 0px auto 0px auto;
+    font-size: 16px;
+    color: #333333;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px #E2E2E2 solid;
+}
+
+.navigation-content {
+    height: 200px;
+    color: #666666;
+}
+
+.navigation-table {
+    line-height: 33px;
+    margin-top: 10px
+}
+
+.navigation-table a:hover {
+    color: #dd3377;
+}
+
+.line1_style {
+    float: left;
+    width: 23px;
+    height: 211px;
+    margin-top: -210px;
+    margin-left: 108px;
+    z-index: 2345678;
+    position: absolute;
+}
+
+.line2_style {
+    float: left;
+    width: 23px;
+    height: 184px;
+    margin-top: -211px;
+    margin-left: 108px;
+    z-index: 2345678;
+    position: absolute;
+}
+
+/*左侧导航样式结束*/
+
+/*左侧悬浮导航开始*/
+element.style {
+    display: block;
+    top: 100px;
+}
+.nav-right {
+    display: none;
+    position: fixed;
+    left: 50%;
+    margin-left: -655px;
+    font-size: 12px;
+    z-index: 9999999999;
+    display: none;
+    top: 100px;
+}
+.nav-right-nav {
+    width: 1px;
+    border-left: 1px dashed #ddd;
+}
+.nav-right-nav ul {
+    margin: 0 0 0 -45px;
+}
+.nav-right-nav .clearfix a li {
+    background: url("../img/icon_index.png");
+    position: relative;
+    float: left;
+    width: 9px;
+    height: 9px;
+    margin: 0 0 40px 0px;
+   	background-position: -32px -127px;
+    cursor: pointer;
+
+}
+
+.nav-right-nav .clearfix a li h3 {
+     position: absolute;
+     left: 15px;
+     top: -20px;
+     width: 40px;
+     font-weight: normal;
+ }
+.nav-right-nav .clearfix a li.active, .nav-right-nav li:hover {
+    color: #df1078;
+    width: 9px;
+    height: 9px;
+    background-position: -7px -127px;
+}
+.nav-right-nav .clearfix a li.last {
+    margin-bottom: 0;
+}
+/*左侧悬浮导航结束*/
+
+
+
+/* 火箭样式 开始*/
+#rocket-to-top div {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 149px;
+}
+#rocket-to-top .level-2 {
+    background: url("../img/rocket_button_up.png") no-repeat scroll -149px 0 transparent;
+    display: none;
+    height: 250px;
+    opacity: 0;
+    z-index: 1;
+}
+#rocket-to-top .level-3 {
+    background: none repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 150px;
+    z-index: 2;
+}
+
+#rocket-to-top {
+    background: url("../img/rocket_button_up.png") no-repeat scroll 0 0 transparent;
+    cursor: default;
+    display: block;
+    height: 250px;
+    margin: -125px 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 80%;
+    width: 149px;
+    z-index: 11;
+}
+/*火箭样式 结束*/
